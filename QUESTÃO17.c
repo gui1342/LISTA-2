@@ -9,7 +9,7 @@ int main() {
   
   
   printf("Este programa irá converter temperaturas de 10° em 10° de Celsius para Fahrenheit\n");
-//exibir vetor
+
   for(c = 0; c < 100; ){
     c = c + 10;
     f = (1.8 * c) + 32;
