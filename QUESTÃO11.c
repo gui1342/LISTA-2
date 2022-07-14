@@ -36,7 +36,7 @@ int main(){
 
   
 
-    printf("\nNúmeros multiplos de 4, na faixa de %i a %i:\n[ ", menor, maior);
+    printf("\nNúmeros multiplos de 4 na faixa de %i a %i:\n[ ", menor, maior);
           //calcular quais números do vetor principal são multiplos de 4
     for(int i = menor; i < maior + 1; i++){
       if(vetor[i] % 4 == 0){
