@@ -7,7 +7,8 @@ faixa A,B especificada pelo usuário. O programa deve funcionar tanto para A > B
 void criar_vetor(int vetor[], int a, int b, int menor, int maior);
 
 int main(){
-  int a, b, ab/*tamanho do vetor*/, *vetor/*vetor principal*/, maior, menor, *div3/*vetor números divisíveis po 3*/, qtd = 0/*quantidade de números do vetor que são divisíveis por 3*/;
+  int a, b, ab/*tamanho do vetor*/, *vetor/*vetor principal*/, maior, menor, *div3/*vetor números divisíveis po 3*/, qtd = 0/*quantidade de números 
+                                                                                                                             do vetor que são divisíveis por 3*/;
   
         printf("Qual a faixa de valores A e B? \nA: ");
         scanf("%i", &a);
